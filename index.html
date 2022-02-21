@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>Mount Glory International School</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <!--<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />-->
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<style>
+	ul li{
+		display: inline-block;
+	}
+	.card-title{
+		font-size: 20px!important;
+	}
+	
+</style>
+</head>
+<body class="host_version"> 
+
+	<!-- Modal -->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header tit-up">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Customer Login</h4>
+			</div>
+			<div class="modal-body customer-box">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs">
+					<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+					<li><a href="#Registration" data-toggle="tab">Registration</a></li>
+				</ul>
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div class="tab-pane active" id="Login">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email1" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-10">
+									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+										Submit
+									</button>
+									<a class="for-pwd" href="javascript:;">Forgot your password?</a>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="tab-pane" id="Registration">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="mobile" placeholder="Mobile" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="password" placeholder="Password" type="password">
+								</div>
+							</div>
+							<div class="row">							
+								<div class="col-sm-10">
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Save &amp; Continue
+									</button>
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Cancel</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	</div>
+
+    <!-- LOADER -->
+	<div id="preloader">
+		<div class="loader-container">
+			<div class="progress-br float shadow">
+				<div class="progress__item"></div>
+			</div>
+		</div>
+	</div>
+	<!-- END LOADER -->	
+	<!--Top contact part-->
+	<div class="topbar" style="background-color: #FF6600;">
+		<div class="container topbarr">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<div class="topbar-inner">
+						<div class="row" style="padding-top:1%;">
+							<div class="col-md-9 col-sm-8 col-xs-12">
+								<ul class="contact">
+																		
+										<li>
+											<a href="mailto:schoolmountglory@gmail.com">
+												<i class="fa fa-envelope" style="color:white"></i>
+												schoolmountglory@gmail.com					    	                    	</a>
+										</li>
+																				
+																		
+										<li>				    	                    	
+											<a href="tel:977014963308">
+												<i class="fa fa-phone"style="color:white"></i>
+												+977 01-4963308					    	                    	</a>
+										</li>
+																				
+																		
+										<li>        	                    	
+											<i class="fa fa-map"style="color:white"></i>
+											Basundhara, Kathmandu , Nepal					    	                    </li>
+																				
+																		
+										<li>
+											<i class="fa fa-clock-o"style="color:white"></i>
+											8:30 am to 5:00pm					    	                    </li>
+																	
+								</ul><!--/ End Contact -->
+							</div>
+							<div class="col-md-3 col-sm-4 col-xs-12">
+										<ul class="social">
+					<li>
+			<a href="https://www.facebook.com/mountgloryinternationalschool	">
+			  <i class="fa fa-facebook"></i>
+			</a>
+		</li>
+	
+					<li> 
+		  <a href="#">
+			<i class="fa fa-twitter"></i>
+		  </a>
+		</li>
+	
+		<li>
+		  <a href="mailto:schoolmountglory@gmail.com">
+			<i class="fa fa-google-plus"></i>
+		  </a>
+		</li>
+	
+					<li> 
+		  <a href="#">
+			<i class="fa fa-instagram"></i>
+		  </a>
+		</li>
+	
+					<li>
+		  <a href="#">
+			<i class="fa fa-pinterest"></i>
+		  </a>
+		</li>
+	
+					<li>
+		  <a href="#">
+			<i class="fa fa-linkedin"></i>
+		  </a>
+		</li>
+	
+					<li> 
+		  <a href="https://www.youtube.com/channel/UCT_oQEOvQHJClpHnDuQlNEA/featured">
+			<span class="fa fa-youtube">
+		  </span></a>
+	   </li>
+			</ul>
+<!--/ End Social -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--End of top part-->
+
+	<!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">
+					<h1><span style="color: black;">Mount Glory Int'l Boarding High School</span></h1>
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-host">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+						<!--<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Course </a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Blog </a>
+						</li>-->                        
+						<li class="nav-item"><a class="nav-link" href="Gallary.html">Gallery</a></li>
+						<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+					</ul>
+					<!--<ul class="nav navbar-nav navbar-right">
+                        <li><a class="hover-btn-new log orange" href="#" data-toggle="modal" data-target="#login"><span>Book Now</span></a></li>
+                    </ul>-->
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+	
+	<div id="carouselExampleControls" class="carousel slide bs-slider box-slider" data-ride="carousel" data-pause="hover" data-interval="false" >
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleControls" data-slide-to="1"></li>
+			<li data-target="#carouselExampleControls" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="carousel-item active">
+				<div id="home" class="first-section img-rounded" style="background-image:url('images/welcome.png');">
+					<div class="dtab">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 col-sm-12 text-right">
+									<!--<div class="big-tagline">
+										<h2><strong>Mount Glory </strong> International School</h2>
+										<p class="lead" style="text-align: center;">Choose the Best Education For Your Future </p>
+											
+									</div>-->
+								</div>
+							</div><!-- end row -->            
+						</div><!-- end container -->
+					</div>
+				</div><!-- end section -->
+			</div>
+			<div class="carousel-item">
+				<div id="home" class="first-section" style="background-image:url('images/slider-02.jpg');">
+					<div class="dtab">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 col-sm-12 text-left">
+									<div class="big-tagline">
+										<h2 data-animation="animated zoomInRight">Mount Glory<strong>International School</strong></h2>
+										<p class="lead" data-animation="animated fadeInLeft"></p>
+											
+									</div>
+								</div>
+							</div><!-- end row -->            
+						</div><!-- end container -->
+					</div>
+				</div><!-- end section -->
+			</div>
+			<div class="carousel-item">
+				<div id="home" class="first-section" style="background-image:url('images/slider-03.jpg');">
+					<div class="dtab">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 col-sm-12 text-center">
+									<div class="big-tagline">
+										<h2 data-animation="animated zoomInRight"><strong></strong> </h2>
+										<p class="lead" data-animation="animated fadeInLeft"></p>
+											
+									</div>
+								</div>
+							</div><!-- end row -->            
+						</div><!-- end container -->
+					</div>
+				</div><!-- end section -->
+			</div>
+			<!-- Left Control -->
+			<a class="new-effect carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				<span class="fa fa-angle-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+
+			<!-- Right Control -->
+			<a class="new-effect carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				<span class="fa fa-angle-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+	
+    <div id="overviews" class="section wb">
+        <div class="container">
+            <div class="section-title row text-center">
+                <div class="row align-items-center">
+					<div class="col-4 col-lg-4 col-md-12 col-sm-8">
+						<div class="card text-white bg-primary mb-4">
+							<div class="card-body">
+								<i class="fa fa-laptop fa-2x"></i></br></br>
+								<h4 class="card-title">Computer Class</h4>
+								<p class="card-text">We have well-equipped computer lab with internet facility in each where students can learn the use of computer…</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4 col-lg-4 col-md-12 col-sm-8">
+						<div class="card text-white bg-secondary mb-4">
+							<div class="card-body">
+								<i class="fa fa-university fa-2x"></i></br></br>
+								<h4 class="card-title">Best Infrastructure</h4>
+								<p class="card-text">To establish this institution as a technology friendly modern school that imparts education for life through socio-economic, cultural,…</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4 col-lg-4 col-md-12 col-sm-8">
+						<div class="card text-white bg-success mb-4">
+							<div class="card-body">
+								<i class="fa fa-flask fa-2x"></i></br></br>
+								<h4 class="card-title">Well Equipped Labs</h4>
+								<p class="card-text">The students present scientific experiments they have learnt though virtual science lab in smart class and real lab…</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4 col-lg-4 col-md-12 col-sm-8 ">
+						<div class="card text-white bg-danger mb-4">
+							<div class="card-body">
+								<i class="fa fa-users fa-2x"></i></br></br>
+								<h4 class="card-title">Group Discussion</h4>
+								<p class="card-text">We inspire the students from the very beginning to discus in the group. The teacher provides them with…</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4 col-lg-4 col-md-12 col-sm-8 ">
+						<div class="card text-white bg-warning mb-4">
+							<div class="card-body">
+								<i class="fa fa-book fa-2x"></i></br></br>
+								<h4 class="card-title">Quality Library</h4>
+								<p class="card-text">It has been set for the students of expand knowledge with various book and reference books along with…</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4 col-lg-4 col-md-12 col-sm-8 ">
+						<div class="card text-white bg-info mb-4">
+							<div class="card-body">
+								<i class="fa fa-cogs fa-2x"></i></br></br>
+								<h4 class="card-title">Modern Classrooms</h4>
+								<p class="card-text">A “Modern” classroom model, designed by teachers, helps students stay engaged and connected..</p>
+							</div>
+						</div>
+					</div>
+				</div>
+            </div><!-- end title -->
+        
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h4>Mount Glory Int'l Boarding High School</h4>
+                        <h2>Welcome to Mount Glory Int'l Boarding High School</h2>
+                        <p>Engaging all students in partnership with family and community to become informed, compassionate, global citizens.</p>
+
+                        <p> Education is about learning skills and knowledge. It also means helping people to learn how to do things and support them to think about what they learn. It's also important for educators to teach ways to find and use information. Education needs research to find out how to make it better.</p>
+
+                        <a href="about.html" class="Learnbtn"><span>Learn More</span></a>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="images/about_02.jpg" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+			</div>
+			<div class="row align-items-center">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="images/about_03.jpg" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h2>Standards</h2>
+                        <p>Formal education is usually in school, where a person may learn basic, academic, or trade skills. Small children often attend a nursery or kindergarten but often formal education begins in elementary school and continues with secondary school.</p>
+
+                        <p> Post-secondary education (or higher education) is usually at a college or university which may grant an academic degree. Or, students may go to a City college where they learn practical skills.</p>
+
+                        <a href="about.html" class="Learnbtn"><span>Learn More</span></a>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+	<section class="section lb page-section" style="">
+		<div class="container">
+			 <div class="section-title row text-center">
+                <div class="col-md-8 offset-md-2">
+                    <h3 style="font-size: 29px;">Why Choose Mount GLory School ?</h3>
+                    <p class="lead" style="color: black;font-size: 12px;">To establish this institution as a technology friendly modern school that imparts education for life through socio-economic, cultural, and technical aspects of life.</p>
+                </div>
+            </div><!-- end title -->
+			<div class="row align-items-center">
+                <div class="col-md-4 col-sm-12">
+					<div class="card">
+						<div class="card-body" align="center">
+							<i class="fa fa fa-money fa-3x"></i></br></br>
+							<h4 class="card-title">Affordable Fee Structures</h4>
+							<p class="card-text">A “Modern” classroom model, designed by teachers, helps students stay engaged and connected..</p>
+						</div>
+					</div>
+                </div><!-- end col -->
+				
+				<div class="col-md-4 col-sm-12">
+					<div class="card">
+						<div class="card-body"align="center">
+							<i class="fa fa fa-trophy fa-3x"></i></br></br>
+							<h4 class="card-title">High-Profile Faculties</h4>
+							<p class="card-text">A “Modern” classroom model, designed by teachers, helps students stay engaged and connected..</p>
+						</div>
+					</div>
+                </div><!-- end col -->
+				<div class="col-md-4 col-sm-12">
+					<div class="card">
+						<div class="card-body"align="center">
+							<i class="fa fa fa-tasks fa-3x"></i></br></br>
+							<h4 class="card-title">Cultural Events</h4>
+							<p class="card-text">A “Modern” classroom model, designed by teachers, helps students stay engaged and connected..</p>
+						</div>
+					</div>
+                </div><!-- end col -->
+			</div>
+		</div>
+	</section>
+
+    <section class="section lb page-section">
+		<div class="container">
+			 <div class="section-title row text-center">
+                <div class="col-md-8 offset-md-2">
+                    <h3>Our Achivement</h3>
+                    <p class="lead" style="color: black;">History is the study of change over time, and it covers all aspects of human society.</p>
+                </div>
+            </div><!-- end title -->
+			<div class="timeline">
+				<div class="timeline__wrap">
+					<div class="timeline__items">
+                        <div class="timeline__item">
+							<div class="timeline__content ">
+								<h2>ACHIEVEMENT IN DANCE</h2>
+								<P>ACHIEVEMENT IN DANCE
+								 	First position in NTV METRO 2 on 2063( Bhojpuri Dance)
+									Secured First position in single Dance Competition 'Hamro Nepal'
+									Organized by Kantipur television inter School Dance Competition
+									2064
+									Secured First position in Interschool & college competition Folk
+									group Dance Organized by ANFSU Akhil Nepal( Dhime Dance)
+									on 2064
+									</P>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content">
+								<h2>ACHIEVEMENT IN DANCE</h2>
+								<p>
+									Secures second position in interschool Folk Group Cultural Dance
+									Competition in triyog champion trophy 2065.
+									Secures second Place in All Nepal Interschool Group/ Folk Dance
+									in Nepal Academy Hall 2066.Secures Third position in interschool Folk / Cultural Dance
+									Competition Organized by Vaal Mandir, Naxal 2065.
+									Secures Third position in interschool Folk / Cultural Dance
+									Competition Organized by Ex Budhanilkantha School (SEB) Club 2066. 	
+								</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content">
+								<h2>SPORT</h2>
+								<p>Basketball-
+									Secured Second Position in first Greenland Basketball Tournament 2063
+									Secured Third Position in second Greenland Basketball Toumament
+									2064.
+									Winner (First Position) in First Forward Basketball cup Toumament
+									2064.
+									Winner (First Position) in First Mani Raj Intensive Basketball cup
+									Tournament 2065.
+								</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content">
+								<h2>SPORT</h2>
+								<p>Futsal-
+									Winner in Inter School Futsal Tournament 2074 organized by
+									Oxford College, Khusibu.
+									Winner in Inter School Futsal Tournament 2074 organized by
+									Uniglobe College, Kamaladi.
+									Winner in Inter School Futsal Tournament 2074 organized by The
+									Excelsior School, Swoyambhu.
+									Winner in Inter School Football Tournament 2074 organized by
+									NEF Pabson, Kathmandu.
+								</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content">
+								<h2>OUR ACHIEVEMENT</h2>
+								<p>Third position in Budhanilkantha Taekwondo Champion
+									2019, Budhanilkantha.
+									Second position in Tokha Nagarpalaka Inter School
+									Drawing Competition 2075,
+									Basundnara
+									Winner in First NPA Inter School Futsal Tourament
+									2075; Tokha.
+									Winner in First Ward Cup Inter School Futsal
+									Tournament 2075, Tokha.
+									Third position in 3rd NEPS Cup Inter School Futsal
+									Tournament 2075, Jorpati.</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content">
+								<h2>OUR ACHIEVEMENT</h2>
+								<p>Winner in First Bansbari Inter School Futsal Tourament
+									2075, Bansbari.
+									Winner in Sigma Inter School Futsal Tournament 2075.
+									Dhalko.
+									Winner in Jersey Pasal Nepal Inter School Futsal
+									Tournament 2075. Dhalko.
+									First Runner up in Third North Pole Academy Inter
+									School Futsal Tournament 2075.
+									10
+									Winner in First Bless Cup Inter School Teacher's Futsal
+									Tournament 2075.</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content">
+								<h2>OUR ACHIEVEMENT</h2>
+								<p>11.
+									First Runner up in Green Field Inter School Teacher's
+									Futsal Tournament 2075.
+									12.
+									Winner in Kohinoor School Inter School Futsal
+									Tournament 2075.
+									13.
+									Winner in Inter School Football Tournament 2075
+									organized by NEF Pabson, Kathmandu.
+									ACHIEVEMENT OF 2075 B.S.</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content">
+								<h2>OUR ACHIEVEMENT</h2>
+								<p>Winner in 2nd SFN Sport Meet-2076 Futsal Competition Organized
+									by NPabson.
+									Winner in Junior Level Futsal Competition-2076 Organized by
+									NPabson
+									First Runner-up in Inter School Dance Competition 2076 Organized
+									by Tokha Yuba Club.
+									First Runner-up in Inter School Futsal Competition Golden
+									Cup-2076.</p>
+							</div>
+						</div>
+						<div class="timeline__item">
+							<div class="timeline__content">
+								<h2>OUR ACHIEVEMENT</h2>
+								<p>2nd Runner-up in Double Badminton Competition-2076 Organized.
+									by Tokha Municipality.
+									Outstanding Dance performence in Inter School Cultural Dance
+									Competition-2076 Top 10 among 95 schools.
+									Give us a chance to educate your children and realize yourselves.
+									Ganesh Shrestha
+									Founder principal</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="section cl">
+		<div class="container">
+			<div class="row text-left stat-wrap">
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<span data-scroll class="global-radius icon_wrap effect-1 alignleft"><i class="flaticon-study"></i></span>
+					<p class="stat_count">1500</p>
+					<h3>Students</h3>
+				</div><!-- end col -->
+
+				<div class="col-md-4 col-sm-4 col-xs-12">
+					<span data-scroll class="global-radius icon_wrap effect-1 alignleft"><i class="flaticon-years"></i></span>
+					<p class="stat_count">20</p>
+					<h3>Years Of Excellence</h3>
+				</div><!-- end col -->
+			</div><!-- end row -->
+		</div><!-- end container -->
+	</div><!-- end section -->
+
+    
+
+    <div id="testimonials" class="parallax section db parallax-off" style="background-image:url('images/parallax_04.jpg');">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>Testimonials</h3>
+                <p>Testimonials of Parents </p>
+            </div><!-- end title -->
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="testi-carousel owl-carousel owl-theme">
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="" alt="" class="img-fluid">
+                                <h4>Lila Sing Thakur </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
+                                <p class="lead">My child has grown in a way that he never would have at another school due to this excellent individualized and warm environment.</p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="" alt="" class="img-fluid">
+                                <h4>Lucky Magar</h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
+                                <p class="lead">My child has grown in a way that he never would have at another school due to this excellent individualized and warm environment.</p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="" alt="" class="img-fluid ">
+                                <h4>Sulav Rai </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
+                                <p class="lead">My child has grown in a way that he never would have at another school due to this excellent individualized and warm environment. </p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="" alt="" class="img-fluid">
+                                <h4>Sandesh Rai</h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
+                                <p class="lead">My child has grown in a way that he never would have at another school due to this excellent individualized and warm environment.</p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="" alt="" class="img-fluid">
+                                <h4>Sagar Neupane</h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
+                                <p class="lead">My child has grown in a way that he never would have at another school due to this excellent individualized and warm environment.</p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="" alt="" class="img-fluid">
+                                <h4>Venanda Mercy </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
+                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div><!-- end testimonial -->
+                    </div><!-- end carousel -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <div class="parallax section dbcolor">
+        <div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-12">
+				   <img class="rounded" src="images/she.png" style="width: 100%;"/>
+			   </div>
+			   <div class="col-lg-8 col-md-6 col-12">
+				<p style="padding-top: 5%;"><strong>SHE</strong> (Sanitation, Health, and Education) Nepal, a social institution is a complex; integrated set of social norms organized around the preservation of a basic societal value and has basically emerged to break the social stigma related to menstruation. It has been established as a voluntary organization with the concept developed by Dr. Garmia Shrestha.
+					SHE Nepal, along with Mount Glory Int’l Boarding School has been rendering the humanitarian services within the national boundary and has taken its steps to widen its spectrum as soon as the institution meets the objectives in sensitizing the people of its current scope.
+					With the flow of time and its service area coverage, it is not only confined within the reproductive stream but has already broadened its reach to education and other health related domains. 
+					A little act of kindness can draw a smile on the faces of those who might have forgotten to cherish. Let’s be the cause of it. Dr. Garima Shrestha  
+				</p>
+				<div class="row">
+					<div class="col-sm-12">
+						<h3 style="color: #d2691ecf;">Follow Us</h3>
+						<a href="https://www.instagram.com/she_nepal/" target="_blank"><i class="fa fa-instagram fa-4x" style="color:crimson"></i></a>
+						<!--<a href="https://www.instagram.com/she_nepal/" style="margin-left:1%;"target="_blank"><i class="fa fa-facebook-f fa-4x" style="color:blue"></i></a>-->
+					</div>
+				</div>
+			</div>
+		   </div>
+		</div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>About US</h3>
+                        </div>
+                        <p> Mount Glory is an educational institution designed to provide learning spaces and learning environments for the teaching of students under the direction of teachers. Most countries have systems of formal education, which is sometimes compulsory. In these systems, students progress through a series of schools.</p>   
+						<div class="footer-right">
+							<ul class="footer-links-soi">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-github"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+								<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+							</ul><!-- end links -->
+						</div>						
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+				<div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Information Link</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Blog</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Contact</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Contact Details</h3>
+                        </div>
+
+                        <ul class="footer-links">
+                            <li><a href="mailto:#">schoolmountglory@gmail.com</a></li>
+                            <li><a href="#">www.mountgloryschool.com</a></li>
+                            <li>Tokha - 5, Shreetol, Basundhara, Kathmandu , Nepal </li>
+                            <li>01-4963308</li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-center">                   
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2021 <a href="#">Mount Glory School</p>
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+	<script src="js/timeline.min.js"></script>
+	<script>
+		timeline(document.querySelectorAll('.timeline'), {
+			forceVerticalMode: 700,
+			mode: 'horizontal',
+			verticalStartPosition: 'left',
+			visibleItems: 4
+		});
+	</script>
+</body>
+</html>
